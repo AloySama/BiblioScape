@@ -22,16 +22,16 @@
     <div class="main">
         <div class="profile-card">
             <div class="img">
-                <img src="https://1.bp.blogspot.com/-8c7QTLoyajs/YLjr2V6KYRI/AAAAAAAACO8/ViVPQpLWVM0jGh3RZhh-Ha1-1r3Oj62wQCNcBGAsYHQ/s16000/team-1-3.jpg">
+                <img src="../assets/profilPictures/elisa.png">
             </div>
             <div class="caption">
-                <h3>Elisa Doe</h3>
+                <h3>Elisa Souchois</h3>
                 <p>Développeuse</p>
             </div>
         </div>
         <div class="profile-card">
             <div class="img">
-                <img src="https://1.bp.blogspot.com/-vhmWFWO2r8U/YLjr2A57toI/AAAAAAAACO4/0GBonlEZPmAiQW4uvkCTm5LvlJVd_-l_wCNcBGAsYHQ/s16000/team-1-2.jpg">
+                <img src="../assets/profilPictures/alois.png">
             </div>
             <div class="caption">
                 <h3>Aloïs Brengard</h3>
@@ -40,7 +40,7 @@
         </div>
         <div class="profile-card">
             <div class="img">
-                <img src="https://1.bp.blogspot.com/-AO5j2Y9lzME/YLjr3mxiqAI/AAAAAAAACPE/KAaYYTtQTrgBE3diTbxGoc4U4fCGx-C2gCNcBGAsYHQ/s16000/team-1-4.jpg">
+                <img src="../assets/profilPictures/julien.png">
             </div>
             <div class="caption">
                 <h3>Julien Prudhomme</h3>
@@ -70,8 +70,8 @@
                 <img src="https://1.bp.blogspot.com/-8c7QTLoyajs/YLjr2V6KYRI/AAAAAAAACO8/ViVPQpLWVM0jGh3RZhh-Ha1-1r3Oj62wQCNcBGAsYHQ/s16000/team-1-3.jpg">
             </div>
             <div class="caption">
-                <h3>Vin Diesel</h3>
-                <p>Senior App Developer</p>
+                <h3>Yohan Doe</h3>
+                <p>Designer</p>
             </div>
         </div>
     </div>
