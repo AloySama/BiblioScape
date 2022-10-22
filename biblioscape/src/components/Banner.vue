@@ -23,7 +23,7 @@ export default {
       list: [
         {
           name: "Qui sommes nous ?",
-          to: "aboutUs"
+          to: "/aboutUs"
         },
         {
           name: "Accueil",
