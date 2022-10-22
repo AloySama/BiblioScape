@@ -77,12 +77,12 @@ export default defineComponent({
         {
           name: "Noah Doe",
           img: require("../assets/profilPictures/user.png"),
-          role: "N/A"
+          role: "Graphiste"
         },
         {
           name: "Yohan Doe",
           img: require("../assets/profilPictures/user.png"),
-          role: "N/A"
+          role: "Graphiste"
         }
       ]
     }
@@ -100,6 +100,10 @@ export default defineComponent({
 
 .ourTeam {
   margin-top: 6%;
+}
+
+.ourStory {
+  background-color: #f8f7f6;
 }
 
 .ourProject {

@@ -3,7 +3,7 @@
     <div class="container">
       <header>
         <div class="left">
-          <img src="../assets/logo.png" alt="logo" width="50" height="50">
+          <img src="../assets/logo.png" alt="logo" width="80" height="80">
         </div>
         <div class="right">
           <nav>
@@ -44,7 +44,11 @@ export default {
 section .container {
   max-width: 1100px;
   margin: 0 auto;
-  padding-top: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #f8f7f6;
+  border-bottom-right-radius: 30%;
+  border-bottom-left-radius: 30%;
 }
 
 section .container header {

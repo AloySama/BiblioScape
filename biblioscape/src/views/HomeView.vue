@@ -1,33 +1,91 @@
 <template>
-  <div class="home">
-    <h3>Une expérience unique à vivre en équipe !</h3>
-    <h4>Nos Escapes Game du moment :</h4>
+  <div class="container">
+    <div class="home">
+      <h2>Une expérience unique à vivre en équipe !</h2>
+    </div>
+    <button @click="scrollToAnchorPoint('section1')">Voir les missions !</button>
   </div>
-  <div class="group-sticky">
-  <div class="pad">
-  <h1>1ère Escape Game</h1>
-  <span class="peel">
-    <span class="peel-back"></span>  
-  </span> 
-</div>
-<div class="pad">
-  <h1>2ème Escape Game</h1>
-  <span class="peel">
-    <span class="peel-back"></span>  
-  </span> 
-</div>
-</div>
+
+  <div ref="section1">
+    <div class="group-sticky">
+      <div class="pad">
+        <h1>1ère Escape Game<br>sdf</h1>
+        <span class="peel">
+      <span class="peel-back"></span>
+    </span>
+      </div>
+      <div class="pad">
+        <h1>2ème Escape Game</h1>
+        <span class="peel">
+      <span class="peel-back"></span>
+    </span>
+      </div>
+    </div>
+  </div>
+  <div id="ok">oui</div>
 </template>
 
-<style>
+<script>
+export default{
+  methods: {
+  scrollToAnchorPoint(refName) {
+    const el = this.$refs[refName]
+    el.scrollIntoView({ behavior: 'smooth'})
+  }
+}
+}
+</script>
+
+<style scoped>
 
 /* SCSS des bouttons Post-it */
 
 @import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
 
+
+.container {
+  margin-top: 100px;
+  position: relative;
+  margin-bottom: 360px;
+  scroll-behavior: smooth;
+}
+
+button {
+  margin-top: 20px;
+  font-size: 40px;
+  padding: 20px 60px;
+  border-radius: 25px;
+  border: none;
+  background-color: darkgreen;
+}
+
+button:hover {
+  background-color: #42b983;
+  cursor: pointer;
+}
+
+
+h2, h3 {
+  color: chartreuse;
+  font-weight: bold;
+}
+
+h2, h3 {
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
 .group-sticky {
   display: flex;
 }
+
 .pad {
   position: relative;
   z-index: 2;
@@ -41,12 +99,14 @@
   box-shadow: 0 -1px 7px 1px #333;
   border-bottom: 3px solid #E6E65C;
 }
+
 .pad h1 {
   position: absolute;
   z-index: 20;
   left: 20px;
   font-weight: normal;
 }
+
 .peel {
   position: absolute;
   z-index: 0;
@@ -60,6 +120,7 @@
   -o-transition: width 500ms, height 500ms;
   transition: width 500ms, height 500ms;
 }
+
 .peel:hover {
   height: 200px;
   width: 200px;
@@ -68,6 +129,7 @@
   -o-transition: width 500ms, height 500ms;
   transition: width 500ms, height 500ms;
 }
+
 .peel:hover::before {
   height: 100px;
   width: 200px;
@@ -76,6 +138,7 @@
   -o-transition: width 500ms, height 500ms;
   transition: width 500ms, height 500ms;
 }
+
 .peel:hover::after {
   height: 200px;
   width: 100px;
@@ -85,6 +148,7 @@
   -o-transition: width 500ms, height 500ms, right 500ms;
   transition: width 500ms, height 500ms, right 500ms;
 }
+
 .peel:hover .peel-back {
   bottom: 17px;
   right: 65px;
@@ -95,6 +159,7 @@
   -o-transition: width 500ms, height 500ms, right 500ms, bottom 500ms;
   transition: width 500ms, height 500ms, right 500ms, bottom 500ms;
 }
+
 .peel::before {
   position: absolute;
   z-index: 5;
@@ -114,6 +179,7 @@
   transition: width 500ms, height 500ms;
   background: -webkit-gradient(linear, 76% 85%, 82% 100%, from(#FFFF66), to(#B8B84A));
 }
+
 .peel::after {
   position: absolute;
   z-index: 6;
@@ -132,6 +198,7 @@
   transition: width 500ms, height 500ms, right 500ms;
   background: -webkit-gradient(linear, 56% 94%, 67% 100%, from(#FFFF66), to(#B8B84A));
 }
+
 .peel-back {
   position: absolute;
   z-index: 2;
