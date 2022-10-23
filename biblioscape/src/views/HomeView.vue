@@ -5,13 +5,19 @@
     </div>
     <button @click="scrollToAnchorPoint('section1')">Voir les missions !</button>
   </div>
+  <div class="test">
   <div class="boxContainer">
-    <div ref="section1" class="box1">
-      <div class="card">
-        <div class="img1Container"><img src="../assets/Fond_guerre.png" class="imgBox1"></div>
-        <div class="container">
-    <Lorem><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>Suspendisse ultrices nulla eu rhoncus rutrum.</Lorem> 
-  </div>
+      <div ref="section1" class="box1">
+        <div class="card">
+          <div class="img1Container"><img src="../assets/Fond_guerre.png" class="imgBox1"></div>
+          <div class="boxText">
+            <Lorem>Le jeu se déroule durant la seconde guerre mondiale vous incarnez une unité de soldat mené par le colonel Francisco, à la suite d’un largage de bombe vous vous retrouvez coincer dans une mystérieuse bibliothèque ou les livres relatent à la fois du passé et du futur !
+              Pour vous sortir de là vous devrez chercher à travers les nombreux livres et déchiffrer
+              le code pour mettre fin à cette guerre.
+            </Lorem><br><br>
+            Réservation <router-link to="/reservation">ici</router-link>
+          </div>
+      </div>
 </div>
   </div>
 </div>
@@ -30,16 +36,29 @@ export default{
 
 <style scoped>
 
-/* SCSS des bouttons Post-it */
+a {
+  color: white;
+}
 
-@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
-
+.boxText {
+  margin-left: -50px;
+  font-size: 15px;
+  margin-top: -5px;
+  width: 134%;
+  text-align: justify;
+}
 
 .container {
   height: 62vh;
   margin: 0 auto;
   position: relative;
   scroll-behavior: smooth;
+}
+
+.test {
+  overflow: scroll;
+  background: url("../assets/Fondblur.png");
+  padding-bottom: 50vh;
 }
 
 .img1Container {
@@ -60,9 +79,10 @@ export default{
 }
 
 .box1, .box2 {
-  padding-bottom: 20vh;
+  background-color: #333333;
+  color: #42b983;
   width: 290px;
-  height: 300px;
+  height: 350px;
   border: 2px solid rgb(0, 0, 0);
   padding: 50px;
   margin: 20px;
@@ -81,7 +101,6 @@ button:hover {
   background-color: darkgreen;
   cursor: pointer;
 }
-
 
 h2, h3 {
   color: chartreuse;
