@@ -5,10 +5,14 @@
     </div>
     <button @click="scrollToAnchorPoint('section1')">Voir les missions !</button>
   </div>
-
+  <div class="boxContainer">
   <div ref="section1" class="games">
     test
   </div>
+  <div ref="section1" class="games">
+    test
+  </div>
+</div>
 </template>
 
 <script>
@@ -36,9 +40,18 @@ export default{
   scroll-behavior: smooth;
 }
 
+.boxContainer {
+  display: flex;
+  flex-direction: row;
+}
+
 .games {
-  background: url("@/assets/Fondblur.png") no-repeat fixed center center;
   padding-bottom: 20vh;
+  width: 300px;
+  height: 300px;
+  border: 2px solid green;
+  padding: 50px;
+  margin: 20px;
 }
 
 button {
