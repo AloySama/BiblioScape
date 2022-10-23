@@ -6,11 +6,13 @@
     <button @click="scrollToAnchorPoint('section1')">Voir les missions !</button>
   </div>
   <div class="boxContainer">
-  <div ref="section1" class="games">
-    test
+    <div ref="section1" class="box1">
+      <div class="card">
+        <div class="img1Container"><img src="../assets/test.jpg" class="imgBox1"></div>
+        <div class="container">
+    <Lorem><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>Suspendisse ultrices nulla eu rhoncus rutrum.</Lorem> 
   </div>
-  <div ref="section1" class="games">
-    test
+</div>
   </div>
 </div>
 </template>
@@ -40,16 +42,27 @@ export default{
   scroll-behavior: smooth;
 }
 
+.img1Container {
+  width: 135%;
+  margin-top: -50px;
+  margin-left: -50px;
+
+}
+.imgBox1 {
+  width: 100%;
+  /* background-color: #f8f7f6; */
+}
 .boxContainer {
   display: flex;
   flex-direction: row;
+  margin-left: 15%;
 }
 
-.games {
+.box1, .box2 {
   padding-bottom: 20vh;
-  width: 300px;
+  width: 290px;
   height: 300px;
-  border: 2px solid green;
+  border: 2px solid rgb(0, 0, 0);
   padding: 50px;
   margin: 20px;
 }
