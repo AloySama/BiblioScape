@@ -75,7 +75,7 @@ export default defineComponent({
           role: "Graphiste"
         },
         {
-          name: "Yohan Doe",
+          name: "Yohan Vavasseur",
           img: require("../assets/profilPictures/yohan.png"),
           role: "Graphiste"
         },
@@ -103,7 +103,7 @@ export default defineComponent({
 }
 
 .ourStory {
-  background-color: #f8f7f6;
+  background-color: darkgrey;
 }
 
 .ourProject {

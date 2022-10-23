@@ -1,8 +1,8 @@
 <template>
   <div class="réservation">
-    <h1><u>Escape game du moment </u></h1>
-    <h2>accessibilités</h2>
-    <h4>Cet escape game est disponible ene plusieurs langues notamment : <br>
+    <h1><u><br><br>Escape game du moment </u></h1>
+    <h2><br>accessibilités</h2>
+    <h4><br>Cet escape game est disponible ene plusieurs langues notamment : <br>
       - Italien 🇮🇹 <br>
       - Français 🇫🇷 <br>
       - Anglais 🇺🇸 </h4>
