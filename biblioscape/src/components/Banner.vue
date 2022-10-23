@@ -3,7 +3,7 @@
     <div class="container">
       <header>
         <div class="left">
-          <img src="../assets/logo.png" alt="logo" width="80" height="80">
+          <a href="http://localhost:8081/#/"><img src="../assets/logo.png" alt="logo" width="80" height="80"></a>
         </div>
         <div class="right">
           <nav>
