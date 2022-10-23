@@ -53,7 +53,7 @@ section .container {
   margin: 0 auto;
   padding-top: 5px;
   padding-bottom: 5px;
-  /* background-color: #f8f7f6; */
+  /* background-color: #0074E7; */
   border-bottom-right-radius: 30%;
   border-bottom-left-radius: 30%;
 }

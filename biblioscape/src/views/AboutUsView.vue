@@ -1,34 +1,12 @@
 <template>
   <div class="ourStory">
     <h1 class="ourProject">Notre projet</h1>
-    <p>Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem
-      ipsum dolor sitLorem ipsum
-      <br>Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem
-      ipsum dolor sitLorem ipsum<br>
-      Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem
-      ipsum dolor sitLorem ipsum<br>
-      Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem
-      ipsum dolor sitLorem ipsum<br>
-      Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem
-      ipsum dolor sitLorem ipsum<br>
-      Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem
-      ipsum dolor sitLorem ipsum<br>
-      Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem
-      ipsum dolor sitLorem ipsum<br></p>
-    <p><br>Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor
-      sitLorem ipsum dolor sitLorem ipsum
-      <br>Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem
-      ipsum dolor sitLorem ipsum<br>
-      Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem
-      ipsum dolor sitLorem ipsum<br>
-      Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem
-      ipsum dolor sitLorem ipsum<br>
-      Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem
-      ipsum dolor sitLorem ipsum<br>
-      Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem
-      ipsum dolor sitLorem ipsum<br>
-      Lorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem ipsum dolor sitLorem
-      ipsum dolor sitLorem ipsum<br></p>
+    <p class="ourProjectText">La fréquentation des bibliothèques baisse depuis plusieurs années nous voulons redonner un élan à cette structure et même changer l’avis générale (changer les idées reçus) et <br>
+      mettre en lumière les connections entre les deux pays frontaliers.<br><br>
+      Notre problématique est donc : <br>
+      Comment ré-intéresser la jeunesse à la culture et au patrimoine ?<br>Notre solution « Biblioscape »
+      Un concept révolutionnaire d’escape Game au sein d’une bibliothèque, afin de réconcilier la jeunesse avec la lecture tout en leur permettant de découvrir l’histoire <br>
+      et la culture Franco-Italienne de façon ludique.</p>
   </div>
   <div class="ourTeam">
     <h1>Notre équipe</h1>
@@ -101,9 +79,11 @@ export default defineComponent({
 .ourTeam {
   margin-top: 6%;
 }
-
+.ourProjectText, .ourProject{
+  color:  white;
+}
 .ourStory {
-  background-color: darkgrey;
+  background-color: black;
 }
 
 .ourProject {

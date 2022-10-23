@@ -37,7 +37,7 @@ export default{
 <style scoped>
 
 a {
-  color: white;
+  color: lightblue;
 }
 
 .boxText {
@@ -80,7 +80,7 @@ a {
 
 .box1, .box2 {
   background-color: #333333;
-  color: #42b983;
+  color: white;
   width: 290px;
   height: 350px;
   border: 2px solid rgb(0, 0, 0);
@@ -103,7 +103,7 @@ button:hover {
 }
 
 h2, h3 {
-  color: chartreuse;
+  color: white;
   font-weight: bold;
 }
 
