@@ -76,7 +76,7 @@ export default defineComponent({
         },
         {
           name: "Noah Lahrichi",
-          img: require("../assets/profilPictures/user.png"),
+          img: require("../assets/profilPictures/noah.png"),
           role: "Graphiste"
         },
         {
