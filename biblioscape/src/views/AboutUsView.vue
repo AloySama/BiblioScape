@@ -70,20 +70,20 @@ export default defineComponent({
           role: "Développeur"
         },
         {
-          name: "Damien Doe",
-          img: require("../assets/profilPictures/user.png"),
-          role: "Développeur"
-        },
-        {
           name: "Noah Lahrichi",
           img: require("../assets/profilPictures/noah.png"),
           role: "Graphiste"
         },
         {
           name: "Yohan Doe",
-          img: require("../assets/profilPictures/user.png"),
+          img: require("../assets/profilPictures/yohan.png"),
           role: "Graphiste"
-        }
+        },
+        {
+          name: "Damien (LE BOCAL)",
+          img: require("../assets/profilPictures/user.png"),
+          role: "Figurant"
+        },
       ]
     }
   }
