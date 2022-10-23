@@ -5,6 +5,9 @@
         <div class="left">
           <a href="http://localhost:8081/#/"><img src="../assets/logo.png" alt="logo" width="80" height="80"></a>
         </div>
+        <div class="middle">
+          <img src="../assets/BiblioScapeLogo.png" height="100" width="209">
+        </div>
         <div class="right">
           <nav>
             <router-link v-for="item in list" :key="item" :to="item.to">{{item.name}}</router-link>
@@ -41,12 +44,16 @@ export default {
   text-decoration: none;
 }
 
+.middle {
+  margin-left:130px;
+}
+
 section .container {
   max-width: 1100px;
   margin: 0 auto;
   padding-top: 5px;
   padding-bottom: 5px;
-  background-color: #f8f7f6;
+  /* background-color: #f8f7f6; */
   border-bottom-right-radius: 30%;
   border-bottom-left-radius: 30%;
 }
