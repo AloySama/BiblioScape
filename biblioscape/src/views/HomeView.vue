@@ -8,7 +8,7 @@
   <div class="boxContainer">
     <div ref="section1" class="box1">
       <div class="card">
-        <div class="img1Container"><img src="../assets/test.jpg" class="imgBox1"></div>
+        <div class="img1Container"><img src="../assets/Fond_guerre.png" class="imgBox1"></div>
         <div class="container">
     <Lorem><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>Suspendisse ultrices nulla eu rhoncus rutrum.</Lorem> 
   </div>
@@ -50,6 +50,7 @@ export default{
 }
 .imgBox1 {
   width: 100%;
+  height: 270px;
   /* background-color: #f8f7f6; */
 }
 .boxContainer {
